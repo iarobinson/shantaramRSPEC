@@ -1,3 +1,5 @@
+# This rspec is inspired by Shantaram by Gregory David Roberts
+
 require 'rspec'
 require 'shantaram.rb'
 
@@ -13,7 +15,7 @@ describe Hero do
   describe "move methods" do
     it "escapes prison" do
       hero.escape_prison
-      expect(robot.position).to eq('Out of prison')
+      expect(hero.position).to eq('Out of prison')
     end
 
     it "escapes country" do
