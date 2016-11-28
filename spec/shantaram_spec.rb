@@ -1,6 +1,4 @@
 # This rspec is inspired by Shantaram by Gregory David Roberts
-
-require 'rspec'
 require 'shantaram.rb'
 
 describe Hero do
