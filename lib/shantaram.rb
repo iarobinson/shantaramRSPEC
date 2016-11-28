@@ -1,11 +1,9 @@
 class Hero
-
   def initialize(name)
     @name = name
+    @position = "Australia"
   end
 
-  def postion
 
-  end
 
 end
