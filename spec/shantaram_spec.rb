@@ -3,12 +3,25 @@
 require 'shantaram'
 
 describe Hero do
-  subject(:name) { Hero.new("Unknown") }
+  subject(:name) { Hero.new("") }
 
-  describe "#position" do
-    it "starts in New Zealand" do
-      expect(hero.position).to eq('Australia')
+  describe "#start_story" do
+    it "took me a long time and most of the world to learn" do
+      expect(hero.location).to eq('Australia')
     end
+
+    it "what I know about love and fate and the choices we make," do
+      expect(hero.name).to eq('Unknown')
+    end
+
+    it "but the heart of it came to me in an instant," do
+      expect(hero.addiction).to eq('Heroine')
+    end
+
+    it "while I was chained to a wall and being tortured." do
+      expect(hero.status).to eq('Outlaw')
+    end
+
   end
 end
 
